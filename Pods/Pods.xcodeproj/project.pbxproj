@@ -16,6 +16,8 @@
 		1F30665BE1122C3AFAE94A8F42E1EC04 /* Pods-UnitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4500F30C4160370D509B784106DD200F /* Pods-UnitTests-dummy.m */; };
 		2206E49724E6DBBDB656C3E48A888F5A /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6501E3D274F43720C1C1157E67E3AE /* Parameters.swift */; };
 		26A19575DAB13D891DB6B7B9D68EAD2F /* Pods-swiftgen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD227BB696CD77975C6977ABFE31498D /* Pods-swiftgen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26C405BD1ED10E8300EF5297 /* XIBParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C405BB1ED10DF000EF5297 /* XIBParser.swift */; };
+		26C405C21ED112C000EF5297 /* XIBContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C405C01ED112A000EF5297 /* XIBContext.swift */; };
 		28382D561B7368F165C86F224E16F69D /* Inheritence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1627A6E85FF1D8D18895F48A86F1D360 /* Inheritence.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		28666A1BC5D5CBAAB00AB2ED8A7E50B6 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0436538F42B0A2EC1C972F8EE47937E0 /* PathKit.framework */; };
 		298D49A0D8C3FE5ED01CE1C4547BB21E /* CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA1D34779AF213163E2093E1681468 /* CommandType.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -200,6 +202,8 @@
 		2018BC11216DC0C1A805DFC10E892757 /* PathKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PathKit.modulemap; sourceTree = "<group>"; };
 		205991245E3269E5CB482C64AA22DA1B /* Pods-UnitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UnitTests.modulemap"; sourceTree = "<group>"; };
 		2497E0C37C035DB8276C0C7335E3FC93 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		26C405BB1ED10DF000EF5297 /* XIBParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = XIBParser.swift; sourceTree = "<group>"; };
+		26C405C01ED112A000EF5297 /* XIBContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = XIBContext.swift; sourceTree = "<group>"; };
 		2D652E4769C757F9FC7D6633C01B6484 /* Pods-swiftgen-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-swiftgen-resources.sh"; sourceTree = "<group>"; };
 		2FC4BEED6BB57E7925D3D204F0C8F8A7 /* StencilSwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StencilSwiftKit.framework; path = StencilSwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		309E4C9E6CB0B8CBFFEB5026D875A88D /* Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Commander.framework; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -545,6 +549,8 @@
 				D70700F359E3D682FEF2E7497303DDD0 /* StoryboardsContext.swift */,
 				534D973B5783AA54D6A1CE0FC978160E /* StringsContext.swift */,
 				C357E3F224BE02FC8361D4C069A91040 /* StringsFileParser.swift */,
+				26C405BB1ED10DF000EF5297 /* XIBParser.swift */,
+				26C405C01ED112A000EF5297 /* XIBContext.swift */,
 				9AB6BBB9B1EABB8777C1CEA56DA4D881 /* Support Files */,
 			);
 			name = SwiftGenKit;
@@ -902,9 +908,11 @@
 				53FE8B5CC4D4EEC5C53940E587148BDD /* Command.swift in Sources */,
 				1B987B7C8B815C135E972ECC4359BECD /* FontsContext.swift in Sources */,
 				1071D513DCB6058048010A03F6F3DEAF /* FontsFileParser.swift in Sources */,
+				26C405BD1ED10E8300EF5297 /* XIBParser.swift in Sources */,
 				C9266CC21B5FACD0F554A67C06C3346D /* StoryboardParser.swift in Sources */,
 				BEE08CB17D781BC85AE0CC7D0E3E6F53 /* StoryboardsContext.swift in Sources */,
 				91BCA6F81A9E661D8767CF4EA5729909 /* StringsContext.swift in Sources */,
+				26C405C21ED112C000EF5297 /* XIBContext.swift in Sources */,
 				B0F845B1650F6E57899CB84EADE2281C /* StringsFileParser.swift in Sources */,
 				D041198382337F54671411546BDD6053 /* SwiftGenKit-dummy.m in Sources */,
 			);

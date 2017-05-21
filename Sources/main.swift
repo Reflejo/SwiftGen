@@ -53,6 +53,7 @@ let main = Group {
   $0.addCommand("colors", "generate code for UIColors", colorsCommand)
   $0.addCommand("images", "generate code for UIImages based on your Assets Catalog", imagesCommand)
   $0.addCommand("storyboards", "generate code for your Storyboard scenes and segues", storyboardsCommand)
+  $0.addCommand("xibs", "generate code for your XIB backed View Controlllers", xibsCommand)
   $0.addCommand("strings", "generate code for your Localizable.strings", stringsCommand)
   $0.addCommand("fonts", "generate code for your UIFonts", fontsCommand)
 }
